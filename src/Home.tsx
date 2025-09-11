@@ -1,4 +1,3 @@
-import React from "react";
 import { Icon } from "@iconify/react";
 import image from "./assets/Photography.jpg";
 import CountUp from "./CountUp";
