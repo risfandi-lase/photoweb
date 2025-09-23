@@ -8,7 +8,12 @@ function Home() {
   // 🖼️ Your gallery images - add all your image paths here
   const galleryImages = [
     // TOP ROW - Your 3 BEST images (most visible)
-    "/assets/49.jpg", // Position 1 - LEFT column top
+    "/assets/56.jpg", 
+    "/assets/2.jpg", 
+    "/assets/53.jpg", 
+    "/assets/54.jpg", 
+    "/assets/39.jpg", 
+    "/assets/49.jpg", 
     "/assets/1.jpg", // Position 2 - MIDDLE column top
     "/assets/45.jpg", // Position 3 - RIGHT column top
     "/assets/8.jpg", // Position 4 - LEFT column
@@ -22,7 +27,7 @@ function Home() {
     "/assets/37.jpg",
     "/assets/41.jpg",
     "/assets/26.jpg",
-    "/assets/39.jpg",
+    "/assets/55.jpg",
     "/assets/4.jpg",
     "/assets/28.jpg",
     "/assets/43.jpg",
@@ -39,7 +44,7 @@ function Home() {
     "/assets/34.jpg",
     "/assets/25.jpg",
     "/assets/31.jpg",
-    "/assets/2.jpg",
+    "/assets/52.jpg",
     "/assets/3.jpg",
     "/assets/50.jpg",
     "/assets/3.jpg",
@@ -63,7 +68,7 @@ function Home() {
   return (
     <div style={{ fontFamily: "Biryani, sans-serif" }} className="">
       <header
-        className="h-64 bg-cover bg-center bg-no-repeat flex items-center justify-center"
+        className="h-64 bg-cover  bg-center bg-no-repeat flex items-center justify-center"
         style={{ backgroundImage: `url(${image})` }}
       >
         <div className="mr-auto mt-26 text-xs">
