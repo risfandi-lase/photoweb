@@ -2,41 +2,42 @@ import { Icon } from "@iconify/react";
 import image from "./assets/Photography.jpg";
 import CountUp from "./CountUp";
 import MasonryGallery from "./MasonryGallery";
-import Footer from "./Footer"
+import Footer from "./Footer";
 
 function Home() {
   // 🖼️ Your gallery images - add all your image paths here
   const galleryImages = [
     // TOP ROW - Your 3 BEST images (most visible)
-    "/assets/56.jpg", 
-    "/assets/2.jpg", 
-    "/assets/53.jpg", 
-    "/assets/54.jpg", 
-    "/assets/39.jpg", 
-    "/assets/49.jpg", 
-    "/assets/1.jpg", // Position 2 - MIDDLE column top
-    "/assets/45.jpg", // Position 3 - RIGHT column top
-    "/assets/8.jpg", // Position 4 - LEFT column
-    "/assets/29.jpg", // Position 5 - MIDDLE column
-    "/assets/18.jpg", // Position 6 - RIGHT column
-    "/assets/12.jpg", // Position 7 - LEFT column
-    "/assets/35.jpg", // Position 8 - MIDDLE column
-    "/assets/24.jpg", // Position 9 - RIGHT column
-    "/assets/46.jpg",
+    "/assets/109.jpg",
+    "/assets/62.jpg",
+    "/assets/104.jpg",
+    "/assets/92.jpg",
+    "/assets/54.jpg",
+    "/assets/53.jpg",
+    "/assets/49.jpg",
+    "/assets/75.jpg",
+    "/assets/81.jpg",
+    "/assets/102.jpg",
+    "/assets/29.jpg",
+    "/assets/18.jpg",
+    "/assets/98.jpg",
+    "/assets/35.jpg",
+    "/assets/40.jpg",
+    "/assets/59.jpg",
     "/assets/51.jpg",
     "/assets/37.jpg",
     "/assets/41.jpg",
     "/assets/26.jpg",
     "/assets/55.jpg",
     "/assets/4.jpg",
-    "/assets/28.jpg",
+    "/assets/15.jpg",
     "/assets/43.jpg",
     "/assets/33.jpg",
     "/assets/31.jpg",
     "/assets/36.jpg",
     "/assets/48.jpg",
     "/assets/27.jpg",
-    "/assets/40.jpg",
+    "/assets/24.jpg",
     "/assets/32.jpg",
     "/assets/47.jpg",
     "/assets/38.jpg",
@@ -44,26 +45,90 @@ function Home() {
     "/assets/34.jpg",
     "/assets/25.jpg",
     "/assets/31.jpg",
-    "/assets/52.jpg",
-    "/assets/3.jpg",
-    "/assets/50.jpg",
-    "/assets/3.jpg",
     "/assets/7.jpg",
-    "/assets/9.jpg",
+    "/assets/107.jpg",
+    "/assets/112.jpg",
+    "/assets/52.jpg",
+    "/assets/83.jpg",
     "/assets/10.jpg",
-    "/assets/11.jpg",
-    "/assets/13.jpg",
-    "/assets/14.jpg",
-    "/assets/15.jpg",
-    "/assets/16.jpg",
-    "/assets/17.jpg",
-    "/assets/19.jpg",
-    "/assets/20.jpg",
-    "/assets/21.jpg",
-    "/assets/22.jpg",
-    "/assets/23.jpg",
     "/assets/42.jpg",
+    "/assets/120.jpg",
+    "/assets/106.jpg",
+    "/assets/28.jpg",
+    "/assets/71.jpg",
+    "/assets/79.jpg",
+    "/assets/101.jpg",
+    "/assets/110.jpg",
+    "/assets/87.jpg",
+    "/assets/94.jpg",
+    "/assets/99.jpg",
+    "/assets/58.jpg",
+    "/assets/84.jpg",
+    "/assets/57.jpg",
+    "/assets/72.jpg",
+    "/assets/61.jpg",
+    "/assets/121.jpg",
+    "/assets/14.jpg",
+    "/assets/67.jpg",
+    "/assets/69.jpg",
+    "/assets/16.jpg",
+    "/assets/73.jpg",
+    "/assets/19.jpg",
+    "/assets/77.jpg",
+    "/assets/17.jpg",
+    "/assets/45.jpg",
+    "/assets/9.jpg",
+    "/assets/85.jpg",
+    "/assets/21.jpg",
+    "/assets/91.jpg",
+    "/assets/93.jpg",
+    "/assets/95.jpg",
+    "/assets/97.jpg",
+    "/assets/23.jpg",
+    "/assets/1.jpg",
+    "/assets/117.jpg",
+    "/assets/89.jpg",
+    "/assets/39.jpg",
+    "/assets/68.jpg",
+    "/assets/111.jpg",
+    "/assets/113.jpg",
+    "/assets/115.jpg",
+    "/assets/103.jpg",
+    "/assets/119.jpg",
+    "/assets/63.jpg",
+    "/assets/122.jpg",
+    "/assets/108.jpg",
+    "/assets/86.jpg",
+    "/assets/116.jpg",
+    "/assets/114.jpg",
+    "/assets/50.jpg",
+    "/assets/60.jpg",
+    "/assets/90.jpg",
+    "/assets/65.jpg",
+    "/assets/3.jpg",
+    "/assets/8.jpg",
+    "/assets/100.jpg",
+    "/assets/12.jpg",
+    "/assets/96.jpg",
+    "/assets/22.jpg",
+    "/assets/3.jpg",
+    "/assets/13.jpg",
+    "/assets/88.jpg",
+    "/assets/118.jpg",
     "/assets/44.jpg",
+    "/assets/82.jpg",
+    "/assets/80.jpg",
+    "/assets/78.jpg",
+    "/assets/76.jpg",
+    "/assets/74.jpg",
+    "/assets/46.jpg",
+    "/assets/70.jpg",
+    "/assets/56.jpg",
+    "/assets/66.jpg",
+    "/assets/64.jpg",
+    "/assets/2.jpg",
+    "/assets/20.jpg",
+    "/assets/11.jpg",
   ];
   return (
     <div style={{ fontFamily: "Biryani, sans-serif" }} className="">
@@ -142,12 +207,13 @@ function Home() {
             </p>
             <div className="flex-1 border-t border-yellow-500"></div>
           </div>
+          <p>Chat Only</p>
 
           <button
             className="flex items-center mb-2 border mt-2 rounded-xl px-3 border-black/20 shadow hover:shadow-md transition-shadow"
             onClick={() =>
               window.open(
-                "https://wa.me/6285760207747?text=Halo%20kak,%20saya%20mau%20booking",
+                "https://wa.me/6285760207747?text=Halo%20kak,%20boleh%20minta%20pricelistnya?",
                 "_blank"
               )
             }
@@ -193,7 +259,7 @@ function Home() {
           className="max-w-6xl p-1 mx-auto"
         />
       </div>
-            <div className="p-4">
+      <div className="p-4">
         <div className="items-center justify-center flex-col flex m-auto">
           <div className="w-full flex items-center">
             <div className="flex-1 border-t border-yellow-500"></div>
@@ -246,7 +312,7 @@ function Home() {
           </div>
         </div>
       </div>{" "}
-      <Footer/>
+      <Footer />
     </div>
   );
 }
