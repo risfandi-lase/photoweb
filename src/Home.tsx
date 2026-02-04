@@ -214,7 +214,7 @@ function Home() {
             onClick={() =>
               window.open(
                 "https://wa.me/6287786578308?text=Halo%20kak",
-                "_blank"
+                "_blank",
               )
             }
           >
@@ -228,7 +228,7 @@ function Home() {
               onClick={() =>
                 window.open(
                   "https://www.tiktok.com/@fandi_arsena?lang=en",
-                  "_blank"
+                  "_blank",
                 )
               }
               title="Message on TikTok"
@@ -238,7 +238,7 @@ function Home() {
             <button
               className="flex items-center mt-2 rounded-xl p-1 shadow hover:shadow-md transition-shadow"
               onClick={() =>
-                window.open("https://www.instagram.com/direct/inbox/", "_blank")
+                window.open("https://www.instagram.com/fandi_arsena", "_blank")
               }
               title="Message on Instagram"
             >
@@ -274,7 +274,7 @@ function Home() {
             onClick={() =>
               window.open(
                 "https://wa.me/6285760207747?text=Halo%20kak,%20saya%20mau%20booking",
-                "_blank"
+                "_blank",
               )
             }
           >
@@ -288,7 +288,7 @@ function Home() {
               onClick={() =>
                 window.open(
                   "https://www.tiktok.com/@fandikokain?lang=en",
-                  "_blank"
+                  "_blank",
                 )
               }
               title="Message on TikTok"
