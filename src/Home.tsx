@@ -227,7 +227,7 @@ function Home() {
               className="mr-4 flex items-center mt-2 rounded-xl p-1 shadow hover:shadow-md transition-shadow"
               onClick={() =>
                 window.open(
-                  "https://www.tiktok.com/@fandikokain?lang=en",
+                  "https://www.tiktok.com/@fandi_arsena?lang=en",
                   "_blank"
                 )
               }
