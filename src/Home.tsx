@@ -213,7 +213,7 @@ function Home() {
             className="flex items-center mb-2 border mt-2 rounded-xl px-3 border-black/20 shadow hover:shadow-md transition-shadow"
             onClick={() =>
               window.open(
-                "https://wa.me/6285760207747?text=Halo%20kak,%20boleh%20minta%20pricelistnya?",
+                "https://wa.me/6287786578308?text=Halo%20kak",
                 "_blank"
               )
             }
