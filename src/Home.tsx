@@ -10,7 +10,7 @@ function Home() {
     // TOP ROW - Your 3 BEST images (most visible)
     "/assets/32.jpg",
     "/assets/26.jpg",
-    "/assets/104.jpg",
+    "/assets/11.jpg",
     "/assets/92.jpg",
     "/assets/54.jpg",
     "/assets/53.jpg",
@@ -118,7 +118,7 @@ function Home() {
     "/assets/64.jpg",
     "/assets/2.jpg",
     "/assets/20.jpg",
-    "/assets/11.jpg",
+    "/assets/104.jpg",
   ];
   return (
     <div style={{ fontFamily: "Biryani, sans-serif" }} className="">

@@ -44,7 +44,7 @@ const MasonryGallery: React.FC<MasonryGalleryProps> = ({
   return (
     <div className={`w-full ${className}`}>
       <div
-        style={{ fontSize: "12px" }}
+        style={{ fontSize: "10px" }}
         className=" grid grid-cols-6 grid-rows-2 mb-6 text-yellow-900 gap-4 place-items-center"
       >
         <p>Graduation</p>
