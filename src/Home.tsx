@@ -8,13 +8,12 @@ function Home() {
   // 🖼️ Your gallery images - add all your image paths here
   const galleryImages = [
     // TOP ROW - Your 3 BEST images (most visible)
-    "/assets/109.jpg",
-    "/assets/62.jpg",
+    "/assets/32.jpg",
+    "/assets/26.jpg",
     "/assets/104.jpg",
     "/assets/92.jpg",
     "/assets/54.jpg",
     "/assets/53.jpg",
-    "/assets/49.jpg",
     "/assets/75.jpg",
     "/assets/81.jpg",
     "/assets/102.jpg",
@@ -24,35 +23,28 @@ function Home() {
     "/assets/35.jpg",
     "/assets/40.jpg",
     "/assets/59.jpg",
-    "/assets/51.jpg",
     "/assets/37.jpg",
-    "/assets/41.jpg",
-    "/assets/26.jpg",
+    "/assets/62.jpg",
     "/assets/55.jpg",
-    "/assets/4.jpg",
     "/assets/15.jpg",
     "/assets/43.jpg",
     "/assets/33.jpg",
     "/assets/31.jpg",
     "/assets/36.jpg",
     "/assets/48.jpg",
-    "/assets/27.jpg",
+    "/assets/120.jpg",
     "/assets/24.jpg",
-    "/assets/32.jpg",
-    "/assets/47.jpg",
+    "/assets/109.jpg",
     "/assets/38.jpg",
-    "/assets/30.jpg",
-    "/assets/34.jpg",
     "/assets/25.jpg",
     "/assets/31.jpg",
     "/assets/7.jpg",
-    "/assets/107.jpg",
+    "/assets/42.jpg",
     "/assets/112.jpg",
     "/assets/52.jpg",
     "/assets/83.jpg",
-    "/assets/10.jpg",
-    "/assets/42.jpg",
-    "/assets/120.jpg",
+    "/assets/82.jpg",
+    "/assets/27.jpg",
     "/assets/106.jpg",
     "/assets/28.jpg",
     "/assets/71.jpg",
@@ -87,21 +79,19 @@ function Home() {
     "/assets/23.jpg",
     "/assets/1.jpg",
     "/assets/117.jpg",
-    "/assets/89.jpg",
     "/assets/39.jpg",
-    "/assets/68.jpg",
+    "/assets/89.jpg",
+    "/assets/118.jpg",
     "/assets/111.jpg",
     "/assets/113.jpg",
     "/assets/115.jpg",
     "/assets/103.jpg",
     "/assets/119.jpg",
-    "/assets/63.jpg",
     "/assets/122.jpg",
     "/assets/108.jpg",
     "/assets/86.jpg",
     "/assets/116.jpg",
     "/assets/114.jpg",
-    "/assets/50.jpg",
     "/assets/60.jpg",
     "/assets/90.jpg",
     "/assets/65.jpg",
@@ -114,9 +104,9 @@ function Home() {
     "/assets/3.jpg",
     "/assets/13.jpg",
     "/assets/88.jpg",
-    "/assets/118.jpg",
+    "/assets/68.jpg",
     "/assets/44.jpg",
-    "/assets/82.jpg",
+    "/assets/107.jpg",
     "/assets/80.jpg",
     "/assets/78.jpg",
     "/assets/76.jpg",
@@ -160,7 +150,7 @@ function Home() {
               <div>
                 <CountUp
                   from={0}
-                  to={2}
+                  to={3}
                   separator=","
                   direction="up"
                   duration={1}
@@ -173,7 +163,7 @@ function Home() {
               <div>
                 <CountUp
                   from={0}
-                  to={50}
+                  to={150}
                   separator=","
                   direction="up"
                   duration={1}
@@ -186,7 +176,7 @@ function Home() {
               <div>
                 <CountUp
                   from={0}
-                  to={100}
+                  to={200}
                   separator=","
                   direction="up"
                   duration={1}

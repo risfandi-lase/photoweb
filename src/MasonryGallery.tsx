@@ -44,19 +44,19 @@ const MasonryGallery: React.FC<MasonryGalleryProps> = ({
   return (
     <div className={`w-full ${className}`}>
       <div
-        style={{ fontSize: "9px" }}
+        style={{ fontSize: "12px" }}
         className=" grid grid-cols-6 grid-rows-2 mb-6 text-yellow-900 gap-4 place-items-center"
       >
         <p>Graduation</p>
-        <p>Personal</p>
+        <p>Engagement</p>
         <p>Prewedding</p>
-        <p>Modelling</p>
-        <p>Badminton</p>
-        <p className="col-start-2 row-start-2">Wedding</p>
-        <p className="col-start-3 row-start-2">Futsal</p>
-        <p className="col-start-4 row-start-2">Fun-Run</p>
+        <p>Wedding</p>
+        <p>Sport</p>
+        <p className="col-start-2 row-start-2">Corporate</p>
+        <p className="col-start-3 row-start-2">Family</p>
+        <p className="col-start-4 row-start-2">Anniversary</p>
         <p className="col-start-6 row-start-1">Birthday</p>
-        <p className="col-start-5">Cinematic</p>
+        <p className="col-start-5">Etc.</p>
       </div>
       {/* Title */}
       {/* Masonry Grid */}
